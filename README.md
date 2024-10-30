@@ -89,8 +89,7 @@ To trigger the DAG from the Airflow web UI, navigate to the "DAGs" section, find
 
 ```bash
 airflow dags trigger home_schedule_dag
-
-
+```
 ## Viewing Outputs
 The consolidated CSV files are saved locally in /home/vboxuser/airflow/dags/analytics/.
 These files will also be uploaded to the specified Google Drive folder (configure the folder ID in the perform_analytics function within the DAG script).
