@@ -1,0 +1,1042 @@
+[2024-10-15T21:23:30.130+0530] {processor.py:186} INFO - Started process (PID=5371) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:23:30.131+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:23:30.132+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:23:30.132+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:23:35.200+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:23:40.244+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:23:40.244+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:23:40.248+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:23:40.249+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:23:40.794+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:23:41.405+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:23:42.732+0530] {logging_mixin.py:190} INFO - Price statistics saved to /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode
+[2024-10-15T21:23:42.733+0530] {logging_mixin.py:190} INFO - Analyzing house features...
+[2024-10-15T21:23:43.501+0530] {logging_mixin.py:190} INFO - House features analysis saved to /home/vboxuser/airflow/dags/analytics/house_features_analysis
+[2024-10-15T21:23:43.502+0530] {logging_mixin.py:190} INFO - Analyzing condition and grade distribution...
+[2024-10-15T21:23:44.149+0530] {logging_mixin.py:190} INFO - Condition and grade distribution saved to /home/vboxuser/airflow/dags/analytics/condition_distribution
+[2024-10-15T21:23:44.149+0530] {logging_mixin.py:190} INFO - Analyzing waterfront properties...
+[2024-10-15T21:23:44.760+0530] {logging_mixin.py:190} INFO - Waterfront analysis saved to /home/vboxuser/airflow/dags/analytics/waterfront_analysis
+[2024-10-15T21:23:44.761+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv...
+[2024-10-15T21:23:44.761+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv
+[2024-10-15T21:23:44.761+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/house_features_analysis into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv...
+[2024-10-15T21:23:44.762+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv
+[2024-10-15T21:23:44.762+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/condition_distribution into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv...
+[2024-10-15T21:23:44.762+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv
+[2024-10-15T21:23:44.762+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/waterfront_analysis into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv...
+[2024-10-15T21:23:44.762+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv
+[2024-10-15T21:23:44.763+0530] {logging_mixin.py:190} INFO - Integrating with Google Drive...
+[2024-10-15T21:23:44.766+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:23:44.766+0530] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-10-15T21:23:44.768+0530] {logging_mixin.py:190} INFO - Google Drive authentication successful!
+[2024-10-15T21:23:44.768+0530] {logging_mixin.py:190} INFO - Deleting old files from Google Drive folder...
+[2024-10-15T21:23:49.775+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:23:49.775+0530] {http.py:140} WARNING - Encountered 403 Forbidden with reason "insufficientFilePermissions"
+[2024-10-15T21:23:49.776+0530] {logging_mixin.py:190} INFO - Error deleting files: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1t1u03ZTia-wSW2Y92aorcd9qEFKTHR5X? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+[2024-10-15T21:23:49.777+0530] {logging_mixin.py:190} INFO - Uploading consolidated CSV files to Google Drive...
+[2024-10-15T21:23:52.056+0530] {logging_mixin.py:190} INFO - Uploaded price_stats_by_zipcode_final.csv to Google Drive.
+[2024-10-15T21:23:55.328+0530] {logging_mixin.py:190} INFO - Uploaded house_features_analysis_final.csv to Google Drive.
+[2024-10-15T21:23:57.661+0530] {logging_mixin.py:190} INFO - Uploaded condition_distribution_final.csv to Google Drive.
+[2024-10-15T21:23:59.842+0530] {logging_mixin.py:190} INFO - Uploaded waterfront_analysis_final.csv to Google Drive.
+[2024-10-15T21:23:59.842+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:23:59.849+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_analytics.py took 29.730 seconds
+[2024-10-15T21:25:50.890+0530] {processor.py:186} INFO - Started process (PID=6493) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:25:50.893+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:25:50.896+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:25:50.896+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:25:56.193+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:26:03.377+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:26:03.377+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:26:03.380+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:26:03.380+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:26:03.888+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:26:04.426+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:26:05.749+0530] {logging_mixin.py:190} INFO - Price statistics saved to /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode
+[2024-10-15T21:26:05.749+0530] {logging_mixin.py:190} INFO - Analyzing house features...
+[2024-10-15T21:26:06.494+0530] {logging_mixin.py:190} INFO - House features analysis saved to /home/vboxuser/airflow/dags/analytics/house_features_analysis
+[2024-10-15T21:26:06.494+0530] {logging_mixin.py:190} INFO - Analyzing condition and grade distribution...
+[2024-10-15T21:26:06.932+0530] {logging_mixin.py:190} INFO - Condition and grade distribution saved to /home/vboxuser/airflow/dags/analytics/condition_distribution
+[2024-10-15T21:26:06.933+0530] {logging_mixin.py:190} INFO - Analyzing waterfront properties...
+[2024-10-15T21:26:07.642+0530] {logging_mixin.py:190} INFO - Waterfront analysis saved to /home/vboxuser/airflow/dags/analytics/waterfront_analysis
+[2024-10-15T21:26:07.642+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv...
+[2024-10-15T21:26:07.642+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv
+[2024-10-15T21:26:07.643+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/house_features_analysis into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv...
+[2024-10-15T21:26:07.643+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv
+[2024-10-15T21:26:07.643+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/condition_distribution into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv...
+[2024-10-15T21:26:07.643+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv
+[2024-10-15T21:26:07.643+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/waterfront_analysis into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv...
+[2024-10-15T21:26:07.643+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv
+[2024-10-15T21:26:07.644+0530] {logging_mixin.py:190} INFO - Integrating with Google Drive...
+[2024-10-15T21:26:07.649+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:26:07.649+0530] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-10-15T21:26:07.651+0530] {logging_mixin.py:190} INFO - Google Drive authentication successful!
+[2024-10-15T21:26:07.651+0530] {logging_mixin.py:190} INFO - Deleting old files from Google Drive folder...
+[2024-10-15T21:26:12.920+0530] {logging_mixin.py:190} INFO - Deleted file: price_stats_by_zipcode_final.csv with ID: 14o0tGpiqOVmjHSFtoWbfZVcGalBK6nQT
+[2024-10-15T21:26:14.130+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:26:14.129+0530] {http.py:140} WARNING - Encountered 403 Forbidden with reason "insufficientFilePermissions"
+[2024-10-15T21:26:14.130+0530] {logging_mixin.py:190} INFO - Error deleting files: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1t1u03ZTia-wSW2Y92aorcd9qEFKTHR5X? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+[2024-10-15T21:26:14.131+0530] {logging_mixin.py:190} INFO - Uploading consolidated CSV files to Google Drive...
+[2024-10-15T21:26:16.262+0530] {logging_mixin.py:190} INFO - Uploaded price_stats_by_zipcode_final.csv to Google Drive.
+[2024-10-15T21:26:18.464+0530] {logging_mixin.py:190} INFO - Uploaded house_features_analysis_final.csv to Google Drive.
+[2024-10-15T21:26:20.600+0530] {logging_mixin.py:190} INFO - Uploaded condition_distribution_final.csv to Google Drive.
+[2024-10-15T21:26:20.908+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:26:20.908+0530] {timeout.py:68} ERROR - Process timed out, PID: 6493
+[2024-10-15T21:26:20.913+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:26:20.909+0530] {dagbag.py:387} ERROR - Failed to import: /home/vboxuser/airflow/dags/home_analytics.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 197, in <module>
+    perform_analytics()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 190, in perform_analytics
+    ).execute()
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 923, in execute
+    resp, content = _retry_request(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google_auth_httplib2.py", line 218, in request
+    response, content = self.http.request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1725, in request
+    (response, content) = self._request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1441, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1393, in _conn_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.10/ssl.py", line 1303, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.10/ssl.py", line 1159, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/vboxuser/airflow/dags/home_analytics.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 6493
+[2024-10-15T21:26:20.914+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:26:20.933+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_analytics.py took 30.079 seconds
+[2024-10-15T21:27:52.048+0530] {processor.py:186} INFO - Started process (PID=7510) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:27:52.051+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:27:52.055+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:27:52.054+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:27:56.707+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:28:02.803+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:28:02.804+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:28:02.816+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:28:02.816+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:28:03.574+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:28:04.350+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:28:05.585+0530] {logging_mixin.py:190} INFO - Price statistics saved to /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode
+[2024-10-15T21:28:05.585+0530] {logging_mixin.py:190} INFO - Analyzing house features...
+[2024-10-15T21:28:06.531+0530] {logging_mixin.py:190} INFO - House features analysis saved to /home/vboxuser/airflow/dags/analytics/house_features_analysis
+[2024-10-15T21:28:06.531+0530] {logging_mixin.py:190} INFO - Analyzing condition and grade distribution...
+[2024-10-15T21:28:07.085+0530] {logging_mixin.py:190} INFO - Condition and grade distribution saved to /home/vboxuser/airflow/dags/analytics/condition_distribution
+[2024-10-15T21:28:07.085+0530] {logging_mixin.py:190} INFO - Analyzing waterfront properties...
+[2024-10-15T21:28:07.947+0530] {logging_mixin.py:190} INFO - Waterfront analysis saved to /home/vboxuser/airflow/dags/analytics/waterfront_analysis
+[2024-10-15T21:28:07.948+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv...
+[2024-10-15T21:28:07.948+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv
+[2024-10-15T21:28:07.948+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/house_features_analysis into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv...
+[2024-10-15T21:28:07.949+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv
+[2024-10-15T21:28:07.955+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/condition_distribution into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv...
+[2024-10-15T21:28:07.955+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv
+[2024-10-15T21:28:07.955+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/waterfront_analysis into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv...
+[2024-10-15T21:28:07.955+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv
+[2024-10-15T21:28:07.955+0530] {logging_mixin.py:190} INFO - Integrating with Google Drive...
+[2024-10-15T21:28:07.963+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:28:07.963+0530] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-10-15T21:28:07.966+0530] {logging_mixin.py:190} INFO - Google Drive authentication successful!
+[2024-10-15T21:28:07.966+0530] {logging_mixin.py:190} INFO - Deleting old files from Google Drive folder...
+[2024-10-15T21:28:12.974+0530] {logging_mixin.py:190} INFO - Deleted file: condition_distribution_final.csv with ID: 1DAas4pmxrVK8lFmnjzg3vwEbCTCZs1z7
+[2024-10-15T21:28:14.552+0530] {logging_mixin.py:190} INFO - Deleted file: house_features_analysis_final.csv with ID: 1FFcNVIn5YuJe248Bo_bVz4xVXFsESQ9x
+[2024-10-15T21:28:15.685+0530] {logging_mixin.py:190} INFO - Deleted file: price_stats_by_zipcode_final.csv with ID: 1q-AiKGDTWxaLO61PehZpcM6ddu7Kb2Qb
+[2024-10-15T21:28:16.959+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:28:16.958+0530] {http.py:140} WARNING - Encountered 403 Forbidden with reason "insufficientFilePermissions"
+[2024-10-15T21:28:16.960+0530] {logging_mixin.py:190} INFO - Error deleting files: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1t1u03ZTia-wSW2Y92aorcd9qEFKTHR5X? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+[2024-10-15T21:28:16.960+0530] {logging_mixin.py:190} INFO - Uploading consolidated CSV files to Google Drive...
+[2024-10-15T21:28:19.195+0530] {logging_mixin.py:190} INFO - Uploaded price_stats_by_zipcode_final.csv to Google Drive.
+[2024-10-15T21:28:21.263+0530] {logging_mixin.py:190} INFO - Uploaded house_features_analysis_final.csv to Google Drive.
+[2024-10-15T21:28:22.059+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:28:22.059+0530] {timeout.py:68} ERROR - Process timed out, PID: 7510
+[2024-10-15T21:28:22.061+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:28:22.059+0530] {dagbag.py:387} ERROR - Failed to import: /home/vboxuser/airflow/dags/home_analytics.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 197, in <module>
+    perform_analytics()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 190, in perform_analytics
+    ).execute()
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 923, in execute
+    resp, content = _retry_request(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google_auth_httplib2.py", line 218, in request
+    response, content = self.http.request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1725, in request
+    (response, content) = self._request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1441, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1393, in _conn_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.10/ssl.py", line 1303, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.10/ssl.py", line 1159, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/vboxuser/airflow/dags/home_analytics.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 7510
+[2024-10-15T21:28:22.062+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:28:22.082+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_analytics.py took 30.040 seconds
+[2024-10-15T21:30:22.296+0530] {processor.py:186} INFO - Started process (PID=8915) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:30:22.299+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:30:22.303+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:30:22.302+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:30:29.389+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:30:35.234+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:30:35.235+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:30:35.237+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:30:35.238+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:30:35.529+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:30:36.022+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:30:37.575+0530] {logging_mixin.py:190} INFO - Price statistics saved to /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode
+[2024-10-15T21:30:37.578+0530] {logging_mixin.py:190} INFO - Analyzing house features...
+[2024-10-15T21:30:38.979+0530] {logging_mixin.py:190} INFO - House features analysis saved to /home/vboxuser/airflow/dags/analytics/house_features_analysis
+[2024-10-15T21:30:38.979+0530] {logging_mixin.py:190} INFO - Analyzing condition and grade distribution...
+[2024-10-15T21:30:40.460+0530] {logging_mixin.py:190} INFO - Condition and grade distribution saved to /home/vboxuser/airflow/dags/analytics/condition_distribution
+[2024-10-15T21:30:40.460+0530] {logging_mixin.py:190} INFO - Analyzing waterfront properties...
+[2024-10-15T21:30:41.538+0530] {logging_mixin.py:190} INFO - Waterfront analysis saved to /home/vboxuser/airflow/dags/analytics/waterfront_analysis
+[2024-10-15T21:30:41.538+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv...
+[2024-10-15T21:30:41.539+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv
+[2024-10-15T21:30:41.540+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/house_features_analysis into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv...
+[2024-10-15T21:30:41.542+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv
+[2024-10-15T21:30:41.543+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/condition_distribution into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv...
+[2024-10-15T21:30:41.543+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv
+[2024-10-15T21:30:41.543+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/waterfront_analysis into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv...
+[2024-10-15T21:30:41.544+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv
+[2024-10-15T21:30:41.544+0530] {logging_mixin.py:190} INFO - Integrating with Google Drive...
+[2024-10-15T21:30:41.547+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:30:41.547+0530] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-10-15T21:30:41.549+0530] {logging_mixin.py:190} INFO - Google Drive authentication successful!
+[2024-10-15T21:30:41.550+0530] {logging_mixin.py:190} INFO - Deleting old files from Google Drive folder...
+[2024-10-15T21:30:50.526+0530] {logging_mixin.py:190} INFO - Deleted file: house_features_analysis_final.csv with ID: 1ZX4k1yGUKM_Ym__xjSlYj5x5RA3niVt8
+[2024-10-15T21:30:52.310+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:30:52.310+0530] {timeout.py:68} ERROR - Process timed out, PID: 8915
+[2024-10-15T21:30:52.318+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:30:52.315+0530] {dagbag.py:387} ERROR - Failed to import: /home/vboxuser/airflow/dags/home_analytics.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 197, in <module>
+    perform_analytics()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 166, in perform_analytics
+    delete_old_files()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 161, in delete_old_files
+    service.files().delete(fileId=item['id']).execute()
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 923, in execute
+    resp, content = _retry_request(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google_auth_httplib2.py", line 218, in request
+    response, content = self.http.request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1725, in request
+    (response, content) = self._request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1441, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1393, in _conn_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.10/ssl.py", line 1303, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.10/ssl.py", line 1159, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/vboxuser/airflow/dags/home_analytics.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 8915
+[2024-10-15T21:30:52.319+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:30:52.342+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_analytics.py took 30.058 seconds
+[2024-10-15T21:32:52.434+0530] {processor.py:186} INFO - Started process (PID=10414) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:32:52.437+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:32:52.439+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:32:52.439+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:33:06.154+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:33:11.775+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:33:11.776+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:33:11.786+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:33:11.787+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:33:12.423+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:33:13.130+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:33:14.477+0530] {logging_mixin.py:190} INFO - Price statistics saved to /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode
+[2024-10-15T21:33:14.478+0530] {logging_mixin.py:190} INFO - Analyzing house features...
+[2024-10-15T21:33:15.206+0530] {logging_mixin.py:190} INFO - House features analysis saved to /home/vboxuser/airflow/dags/analytics/house_features_analysis
+[2024-10-15T21:33:15.207+0530] {logging_mixin.py:190} INFO - Analyzing condition and grade distribution...
+[2024-10-15T21:33:15.924+0530] {logging_mixin.py:190} INFO - Condition and grade distribution saved to /home/vboxuser/airflow/dags/analytics/condition_distribution
+[2024-10-15T21:33:15.925+0530] {logging_mixin.py:190} INFO - Analyzing waterfront properties...
+[2024-10-15T21:33:16.768+0530] {logging_mixin.py:190} INFO - Waterfront analysis saved to /home/vboxuser/airflow/dags/analytics/waterfront_analysis
+[2024-10-15T21:33:16.768+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv...
+[2024-10-15T21:33:16.768+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv
+[2024-10-15T21:33:16.769+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/house_features_analysis into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv...
+[2024-10-15T21:33:16.769+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv
+[2024-10-15T21:33:16.769+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/condition_distribution into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv...
+[2024-10-15T21:33:16.770+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv
+[2024-10-15T21:33:16.770+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/waterfront_analysis into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv...
+[2024-10-15T21:33:16.770+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv
+[2024-10-15T21:33:16.771+0530] {logging_mixin.py:190} INFO - Integrating with Google Drive...
+[2024-10-15T21:33:16.774+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:33:16.773+0530] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-10-15T21:33:16.778+0530] {logging_mixin.py:190} INFO - Google Drive authentication successful!
+[2024-10-15T21:33:16.779+0530] {logging_mixin.py:190} INFO - Deleting old files from Google Drive folder...
+[2024-10-15T21:33:22.464+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:33:22.462+0530] {timeout.py:68} ERROR - Process timed out, PID: 10414
+[2024-10-15T21:33:22.468+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:33:22.464+0530] {dagbag.py:387} ERROR - Failed to import: /home/vboxuser/airflow/dags/home_analytics.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 197, in <module>
+    perform_analytics()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 166, in perform_analytics
+    delete_old_files()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 155, in delete_old_files
+    results = service.files().list(q=f"'{folder_id}' in parents", fields="files(id, name)").execute()
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 923, in execute
+    resp, content = _retry_request(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google_auth_httplib2.py", line 209, in request
+    self.credentials.before_request(self._request, method, uri, request_headers)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google/oauth2/credentials.py", line 409, in refresh
+    ) = reauth.refresh_grant(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google/oauth2/reauth.py", line 333, in refresh_grant
+    response_status_ok, response_data, retryable_error = _client._token_endpoint_request_no_throw(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google/oauth2/_client.py", line 191, in _token_endpoint_request_no_throw
+    response = request(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google_auth_httplib2.py", line 119, in __call__
+    response, data = self.http.request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1725, in request
+    (response, content) = self._request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1441, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1363, in _conn_request
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1153, in connect
+    sock.connect((self.host, self.port))
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/vboxuser/airflow/dags/home_analytics.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 10414
+[2024-10-15T21:33:22.469+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:33:22.489+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_analytics.py took 30.063 seconds
+[2024-10-15T21:35:45.703+0530] {processor.py:186} INFO - Started process (PID=11945) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:35:45.708+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:35:45.715+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:35:45.713+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:35:51.078+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:35:58.761+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:35:58.761+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:35:58.764+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:35:58.765+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:35:59.351+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:36:00.380+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:36:02.373+0530] {logging_mixin.py:190} INFO - Price statistics saved to /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode
+[2024-10-15T21:36:02.373+0530] {logging_mixin.py:190} INFO - Analyzing house features...
+[2024-10-15T21:36:03.288+0530] {logging_mixin.py:190} INFO - House features analysis saved to /home/vboxuser/airflow/dags/analytics/house_features_analysis
+[2024-10-15T21:36:03.289+0530] {logging_mixin.py:190} INFO - Analyzing condition and grade distribution...
+[2024-10-15T21:36:04.125+0530] {logging_mixin.py:190} INFO - Condition and grade distribution saved to /home/vboxuser/airflow/dags/analytics/condition_distribution
+[2024-10-15T21:36:04.125+0530] {logging_mixin.py:190} INFO - Analyzing waterfront properties...
+[2024-10-15T21:36:05.056+0530] {logging_mixin.py:190} INFO - Waterfront analysis saved to /home/vboxuser/airflow/dags/analytics/waterfront_analysis
+[2024-10-15T21:36:05.056+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv...
+[2024-10-15T21:36:05.057+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv
+[2024-10-15T21:36:05.057+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/house_features_analysis into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv...
+[2024-10-15T21:36:05.058+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv
+[2024-10-15T21:36:05.058+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/condition_distribution into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv...
+[2024-10-15T21:36:05.059+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv
+[2024-10-15T21:36:05.059+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/waterfront_analysis into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv...
+[2024-10-15T21:36:05.059+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv
+[2024-10-15T21:36:05.059+0530] {logging_mixin.py:190} INFO - Integrating with Google Drive...
+[2024-10-15T21:36:05.063+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:36:05.062+0530] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-10-15T21:36:05.064+0530] {logging_mixin.py:190} INFO - Google Drive authentication successful!
+[2024-10-15T21:36:05.065+0530] {logging_mixin.py:190} INFO - Deleting old files from Google Drive folder...
+[2024-10-15T21:36:11.287+0530] {logging_mixin.py:190} INFO - Deleted file: condition_distribution_final.csv with ID: 1pKE_RS3_MtvBUaRp_aaTgU3LEQ-vA1pQ
+[2024-10-15T21:36:11.928+0530] {logging_mixin.py:190} INFO - Deleted file: house_features_analysis_final.csv with ID: 1Uvt51r6PUENdY4I_rO5OVMtaL3PXKvHH
+[2024-10-15T21:36:13.238+0530] {logging_mixin.py:190} INFO - Deleted file: price_stats_by_zipcode_final.csv with ID: 1xpJnJLIYYo4f-DrG1uf4Wts8rPq7e-OC
+[2024-10-15T21:36:14.301+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:36:14.300+0530] {http.py:140} WARNING - Encountered 403 Forbidden with reason "insufficientFilePermissions"
+[2024-10-15T21:36:14.302+0530] {logging_mixin.py:190} INFO - Error deleting files: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1t1u03ZTia-wSW2Y92aorcd9qEFKTHR5X? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+[2024-10-15T21:36:14.302+0530] {logging_mixin.py:190} INFO - Uploading consolidated CSV files to Google Drive...
+[2024-10-15T21:36:15.721+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:36:15.721+0530] {timeout.py:68} ERROR - Process timed out, PID: 11945
+[2024-10-15T21:36:15.727+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:36:15.725+0530] {dagbag.py:387} ERROR - Failed to import: /home/vboxuser/airflow/dags/home_analytics.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 197, in <module>
+    perform_analytics()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 190, in perform_analytics
+    ).execute()
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 923, in execute
+    resp, content = _retry_request(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google_auth_httplib2.py", line 218, in request
+    response, content = self.http.request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1725, in request
+    (response, content) = self._request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1441, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1393, in _conn_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.10/ssl.py", line 1303, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.10/ssl.py", line 1159, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/vboxuser/airflow/dags/home_analytics.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 11945
+[2024-10-15T21:36:15.728+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:36:15.750+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_analytics.py took 30.058 seconds
+[2024-10-15T21:37:18.002+0530] {processor.py:186} INFO - Started process (PID=12885) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:37:18.007+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:37:18.010+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:37:18.010+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:37:24.332+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:37:34.561+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:37:34.561+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:37:34.569+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:37:34.570+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:37:35.639+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:37:37.048+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:37:40.053+0530] {logging_mixin.py:190} INFO - Price statistics saved to /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode
+[2024-10-15T21:37:40.056+0530] {logging_mixin.py:190} INFO - Analyzing house features...
+[2024-10-15T21:37:41.652+0530] {logging_mixin.py:190} INFO - House features analysis saved to /home/vboxuser/airflow/dags/analytics/house_features_analysis
+[2024-10-15T21:37:41.653+0530] {logging_mixin.py:190} INFO - Analyzing condition and grade distribution...
+[2024-10-15T21:37:42.934+0530] {logging_mixin.py:190} INFO - Condition and grade distribution saved to /home/vboxuser/airflow/dags/analytics/condition_distribution
+[2024-10-15T21:37:42.935+0530] {logging_mixin.py:190} INFO - Analyzing waterfront properties...
+[2024-10-15T21:37:44.520+0530] {logging_mixin.py:190} INFO - Waterfront analysis saved to /home/vboxuser/airflow/dags/analytics/waterfront_analysis
+[2024-10-15T21:37:44.521+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv...
+[2024-10-15T21:37:44.522+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv
+[2024-10-15T21:37:44.523+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/house_features_analysis into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv...
+[2024-10-15T21:37:44.524+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv
+[2024-10-15T21:37:44.524+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/condition_distribution into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv...
+[2024-10-15T21:37:44.524+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv
+[2024-10-15T21:37:44.525+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/waterfront_analysis into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv...
+[2024-10-15T21:37:44.525+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv
+[2024-10-15T21:37:44.525+0530] {logging_mixin.py:190} INFO - Integrating with Google Drive...
+[2024-10-15T21:37:44.536+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:37:44.536+0530] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-10-15T21:37:44.538+0530] {logging_mixin.py:190} INFO - Google Drive authentication successful!
+[2024-10-15T21:37:44.539+0530] {logging_mixin.py:190} INFO - Deleting old files from Google Drive folder...
+[2024-10-15T21:37:47.621+0530] {logging_mixin.py:190} INFO - Deleted file: waterfront_analysis_final.csv with ID: 1IwC00tIwkv2epZZfKG_gl0261Xr9S1ct
+[2024-10-15T21:37:48.017+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:37:48.017+0530] {timeout.py:68} ERROR - Process timed out, PID: 12885
+[2024-10-15T21:37:48.019+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:37:48.018+0530] {dagbag.py:387} ERROR - Failed to import: /home/vboxuser/airflow/dags/home_analytics.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 197, in <module>
+    perform_analytics()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 166, in perform_analytics
+    delete_old_files()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 161, in delete_old_files
+    service.files().delete(fileId=item['id']).execute()
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 923, in execute
+    resp, content = _retry_request(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google_auth_httplib2.py", line 218, in request
+    response, content = self.http.request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1725, in request
+    (response, content) = self._request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1441, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1393, in _conn_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.10/ssl.py", line 1303, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.10/ssl.py", line 1159, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/vboxuser/airflow/dags/home_analytics.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 12885
+[2024-10-15T21:37:48.020+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:37:48.043+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_analytics.py took 30.049 seconds
+[2024-10-15T21:38:49.591+0530] {processor.py:186} INFO - Started process (PID=13855) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:38:49.593+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:38:49.597+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:38:49.596+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:38:56.912+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:39:05.256+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:39:05.257+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:39:05.259+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:39:05.260+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:39:05.806+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:39:06.393+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:40:02.609+0530] {processor.py:186} INFO - Started process (PID=14726) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:40:02.611+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:40:02.613+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:40:02.613+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:40:06.097+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:40:11.118+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:40:11.118+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:40:11.121+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:40:11.122+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:40:11.657+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:40:12.247+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:40:13.345+0530] {logging_mixin.py:190} INFO - Price statistics saved to /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode
+[2024-10-15T21:40:13.346+0530] {logging_mixin.py:190} INFO - Analyzing house features...
+[2024-10-15T21:40:13.998+0530] {logging_mixin.py:190} INFO - House features analysis saved to /home/vboxuser/airflow/dags/analytics/house_features_analysis
+[2024-10-15T21:40:13.998+0530] {logging_mixin.py:190} INFO - Analyzing condition and grade distribution...
+[2024-10-15T21:40:14.558+0530] {logging_mixin.py:190} INFO - Condition and grade distribution saved to /home/vboxuser/airflow/dags/analytics/condition_distribution
+[2024-10-15T21:40:14.559+0530] {logging_mixin.py:190} INFO - Analyzing waterfront properties...
+[2024-10-15T21:40:15.107+0530] {logging_mixin.py:190} INFO - Waterfront analysis saved to /home/vboxuser/airflow/dags/analytics/waterfront_analysis
+[2024-10-15T21:40:15.108+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv...
+[2024-10-15T21:40:15.108+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv
+[2024-10-15T21:40:15.108+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/house_features_analysis into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv...
+[2024-10-15T21:40:15.109+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv
+[2024-10-15T21:40:15.109+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/condition_distribution into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv...
+[2024-10-15T21:40:15.109+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv
+[2024-10-15T21:40:15.109+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/waterfront_analysis into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv...
+[2024-10-15T21:40:15.109+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv
+[2024-10-15T21:40:15.109+0530] {logging_mixin.py:190} INFO - Integrating with Google Drive...
+[2024-10-15T21:40:15.116+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:40:15.116+0530] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-10-15T21:40:15.118+0530] {logging_mixin.py:190} INFO - Google Drive authentication successful!
+[2024-10-15T21:40:15.118+0530] {logging_mixin.py:190} INFO - Deleting old files from Google Drive folder...
+[2024-10-15T21:40:20.936+0530] {logging_mixin.py:190} INFO - Deleted file: condition_distribution_final.csv with ID: 1NCW1eE_Mi4J6dl1DQ23dzjuZY0M3cPRI
+[2024-10-15T21:40:22.264+0530] {logging_mixin.py:190} INFO - Deleted file: house_features_analysis_final.csv with ID: 1EBYucmiiiTooHrMya3kpyJp3h5wjRp6B
+[2024-10-15T21:40:23.112+0530] {logging_mixin.py:190} INFO - Deleted file: price_stats_by_zipcode_final.csv with ID: 1iBNh-mQGKqLd86GTN_6eG4xJygCv83_x
+[2024-10-15T21:40:24.416+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:40:24.415+0530] {http.py:140} WARNING - Encountered 403 Forbidden with reason "insufficientFilePermissions"
+[2024-10-15T21:40:24.417+0530] {logging_mixin.py:190} INFO - Error deleting files: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1t1u03ZTia-wSW2Y92aorcd9qEFKTHR5X? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+[2024-10-15T21:40:24.417+0530] {logging_mixin.py:190} INFO - Uploading consolidated CSV files to Google Drive...
+[2024-10-15T21:40:26.669+0530] {logging_mixin.py:190} INFO - Uploaded price_stats_by_zipcode_final.csv to Google Drive.
+[2024-10-15T21:40:29.025+0530] {logging_mixin.py:190} INFO - Uploaded house_features_analysis_final.csv to Google Drive.
+[2024-10-15T21:40:31.300+0530] {logging_mixin.py:190} INFO - Uploaded condition_distribution_final.csv to Google Drive.
+[2024-10-15T21:40:32.622+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:40:32.622+0530] {timeout.py:68} ERROR - Process timed out, PID: 14726
+[2024-10-15T21:40:32.626+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:40:32.623+0530] {dagbag.py:387} ERROR - Failed to import: /home/vboxuser/airflow/dags/home_analytics.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 197, in <module>
+    perform_analytics()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 190, in perform_analytics
+    ).execute()
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 923, in execute
+    resp, content = _retry_request(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google_auth_httplib2.py", line 218, in request
+    response, content = self.http.request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1725, in request
+    (response, content) = self._request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1441, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1393, in _conn_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.10/ssl.py", line 1303, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.10/ssl.py", line 1159, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/vboxuser/airflow/dags/home_analytics.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 14726
+[2024-10-15T21:40:32.626+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:40:32.644+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_analytics.py took 30.041 seconds
+[2024-10-15T21:42:05.856+0530] {processor.py:186} INFO - Started process (PID=15744) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:42:05.860+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:42:05.863+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:42:05.862+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:42:11.694+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:42:18.062+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:42:18.063+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:42:18.065+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:42:18.066+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:42:18.712+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:42:19.575+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:42:20.734+0530] {logging_mixin.py:190} INFO - Price statistics saved to /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode
+[2024-10-15T21:42:20.735+0530] {logging_mixin.py:190} INFO - Analyzing house features...
+[2024-10-15T21:42:21.438+0530] {logging_mixin.py:190} INFO - House features analysis saved to /home/vboxuser/airflow/dags/analytics/house_features_analysis
+[2024-10-15T21:42:21.439+0530] {logging_mixin.py:190} INFO - Analyzing condition and grade distribution...
+[2024-10-15T21:42:22.151+0530] {logging_mixin.py:190} INFO - Condition and grade distribution saved to /home/vboxuser/airflow/dags/analytics/condition_distribution
+[2024-10-15T21:42:22.151+0530] {logging_mixin.py:190} INFO - Analyzing waterfront properties...
+[2024-10-15T21:42:23.056+0530] {logging_mixin.py:190} INFO - Waterfront analysis saved to /home/vboxuser/airflow/dags/analytics/waterfront_analysis
+[2024-10-15T21:42:23.057+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv...
+[2024-10-15T21:42:23.058+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv
+[2024-10-15T21:42:23.058+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/house_features_analysis into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv...
+[2024-10-15T21:42:23.059+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv
+[2024-10-15T21:42:23.059+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/condition_distribution into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv...
+[2024-10-15T21:42:23.063+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv
+[2024-10-15T21:42:23.064+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/waterfront_analysis into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv...
+[2024-10-15T21:42:23.064+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv
+[2024-10-15T21:42:23.065+0530] {logging_mixin.py:190} INFO - Integrating with Google Drive...
+[2024-10-15T21:42:23.068+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:42:23.068+0530] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-10-15T21:42:23.070+0530] {logging_mixin.py:190} INFO - Google Drive authentication successful!
+[2024-10-15T21:42:23.070+0530] {logging_mixin.py:190} INFO - Deleting old files from Google Drive folder...
+[2024-10-15T21:42:28.888+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:42:28.887+0530] {http.py:140} WARNING - Encountered 403 Forbidden with reason "insufficientFilePermissions"
+[2024-10-15T21:42:28.888+0530] {logging_mixin.py:190} INFO - Error deleting files: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1t1u03ZTia-wSW2Y92aorcd9qEFKTHR5X? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+[2024-10-15T21:42:28.889+0530] {logging_mixin.py:190} INFO - Uploading consolidated CSV files to Google Drive...
+[2024-10-15T21:42:30.968+0530] {logging_mixin.py:190} INFO - Uploaded price_stats_by_zipcode_final.csv to Google Drive.
+[2024-10-15T21:42:33.271+0530] {logging_mixin.py:190} INFO - Uploaded house_features_analysis_final.csv to Google Drive.
+[2024-10-15T21:42:35.315+0530] {logging_mixin.py:190} INFO - Uploaded condition_distribution_final.csv to Google Drive.
+[2024-10-15T21:42:35.873+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:42:35.873+0530] {timeout.py:68} ERROR - Process timed out, PID: 15744
+[2024-10-15T21:42:35.876+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:42:35.874+0530] {dagbag.py:387} ERROR - Failed to import: /home/vboxuser/airflow/dags/home_analytics.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 197, in <module>
+    perform_analytics()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 190, in perform_analytics
+    ).execute()
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 923, in execute
+    resp, content = _retry_request(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google_auth_httplib2.py", line 218, in request
+    response, content = self.http.request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1725, in request
+    (response, content) = self._request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1441, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1393, in _conn_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.10/ssl.py", line 1303, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.10/ssl.py", line 1159, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/vboxuser/airflow/dags/home_analytics.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 15744
+[2024-10-15T21:42:35.884+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:42:35.898+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_analytics.py took 30.052 seconds
+[2024-10-15T21:44:43.600+0530] {processor.py:186} INFO - Started process (PID=17251) to work on /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:44:43.603+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_analytics.py for tasks to queue
+[2024-10-15T21:44:43.605+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:44:43.605+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:44:49.977+0530] {logging_mixin.py:190} INFO - Reading the CSV file...
+[2024-10-15T21:44:58.829+0530] {logging_mixin.py:190} INFO - CSV file loaded successfully!
+[2024-10-15T21:44:58.829+0530] {logging_mixin.py:190} INFO - DataFrame Schema:
+[2024-10-15T21:44:58.832+0530] {logging_mixin.py:190} INFO - root
+ |-- id: string (nullable = true)
+ |-- date: string (nullable = true)
+ |-- price: double (nullable = true)
+ |-- bedrooms: string (nullable = true)
+ |-- bathrooms: string (nullable = true)
+ |-- sqft_living: string (nullable = true)
+ |-- sqft_lot: string (nullable = true)
+ |-- floors: string (nullable = true)
+ |-- waterfront: string (nullable = true)
+ |-- view: string (nullable = true)
+ |-- condition: string (nullable = true)
+ |-- grade: string (nullable = true)
+ |-- yr_built: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+ |-- lat: string (nullable = true)
+ |-- long: string (nullable = true)
+[2024-10-15T21:44:58.832+0530] {logging_mixin.py:190} INFO - First few rows of the DataFrame:
+[2024-10-15T21:44:59.656+0530] {logging_mixin.py:190} INFO - +----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|    price|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+|        id|           date|     NULL|bedrooms|bathrooms|sqft_living|sqft_lot|floors|waterfront|   view|condition|grade|yr_built|zipcode|    lat|    long|
+| 629000615|20141022T000000|1495000.0|       4|     3.25|       3070|   10375|     2|        No|No View|  Average|   10|    1962|  98004|47.5862|-122.198|
+|4141800215|20141126T000000|1495000.0|       4|     3.75|       3770|    4000|   2.5|        No|No View|Very Good|    9|    1916|  98122|47.6157|-122.287|
+|6448000020|20150129T000000|1490000.0|       4|      2.5|       2420|   18480|     1|        No|No View|     Good|    9|    1967|  98004|47.6214|-122.227|
+|9522300010|20150331T000000|1490000.0|       3|      3.5|       4560|   14608|     2|        No|Average|  Average|   12|    1990|  98034|47.6995|-122.228|
++----------+---------------+---------+--------+---------+-----------+--------+------+----------+-------+---------+-----+--------+-------+-------+--------+
+only showing top 5 rows
+[2024-10-15T21:45:00.289+0530] {logging_mixin.py:190} INFO - Calculating price statistics by zipcode...
+[2024-10-15T21:45:02.114+0530] {logging_mixin.py:190} INFO - Price statistics saved to /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode
+[2024-10-15T21:45:02.115+0530] {logging_mixin.py:190} INFO - Analyzing house features...
+[2024-10-15T21:45:03.288+0530] {logging_mixin.py:190} INFO - House features analysis saved to /home/vboxuser/airflow/dags/analytics/house_features_analysis
+[2024-10-15T21:45:03.288+0530] {logging_mixin.py:190} INFO - Analyzing condition and grade distribution...
+[2024-10-15T21:45:03.783+0530] {logging_mixin.py:190} INFO - Condition and grade distribution saved to /home/vboxuser/airflow/dags/analytics/condition_distribution
+[2024-10-15T21:45:03.783+0530] {logging_mixin.py:190} INFO - Analyzing waterfront properties...
+[2024-10-15T21:45:04.545+0530] {logging_mixin.py:190} INFO - Waterfront analysis saved to /home/vboxuser/airflow/dags/analytics/waterfront_analysis
+[2024-10-15T21:45:04.545+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv...
+[2024-10-15T21:45:04.546+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/price_stats_by_zipcode_final.csv
+[2024-10-15T21:45:04.546+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/house_features_analysis into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv...
+[2024-10-15T21:45:04.546+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/house_features_analysis_final.csv
+[2024-10-15T21:45:04.546+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/condition_distribution into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv...
+[2024-10-15T21:45:04.547+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/condition_distribution_final.csv
+[2024-10-15T21:45:04.547+0530] {logging_mixin.py:190} INFO - Consolidating CSV files from /home/vboxuser/airflow/dags/analytics/waterfront_analysis into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv...
+[2024-10-15T21:45:04.556+0530] {logging_mixin.py:190} INFO - Consolidated files into /home/vboxuser/airflow/dags/analytics/waterfront_analysis_final.csv
+[2024-10-15T21:45:04.556+0530] {logging_mixin.py:190} INFO - Integrating with Google Drive...
+[2024-10-15T21:45:04.560+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:45:04.560+0530] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-10-15T21:45:04.575+0530] {logging_mixin.py:190} INFO - Google Drive authentication successful!
+[2024-10-15T21:45:04.575+0530] {logging_mixin.py:190} INFO - Deleting old files from Google Drive folder...
+[2024-10-15T21:45:08.718+0530] {logging_mixin.py:190} INFO - Deleted file: waterfront_analysis_final.csv with ID: 1MF2YxBoKiu0RfxQNrH4YhvwdjxmrLNFH
+[2024-10-15T21:45:09.638+0530] {logging_mixin.py:190} INFO - Deleted file: condition_distribution_final.csv with ID: 1j3-rlfzdJokBfINPVrbt_T7oRMalHv93
+[2024-10-15T21:45:10.752+0530] {logging_mixin.py:190} INFO - Deleted file: house_features_analysis_final.csv with ID: 1XYQW8azTtqrNbiwoHRYqs_C2yf-LMlzM
+[2024-10-15T21:45:11.671+0530] {logging_mixin.py:190} INFO - Deleted file: price_stats_by_zipcode_final.csv with ID: 1pYCad2qvCj7YZV4oIYJ2q11pNlw7iWxI
+[2024-10-15T21:45:12.599+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:45:12.598+0530] {http.py:140} WARNING - Encountered 403 Forbidden with reason "insufficientFilePermissions"
+[2024-10-15T21:45:12.599+0530] {logging_mixin.py:190} INFO - Error deleting files: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1t1u03ZTia-wSW2Y92aorcd9qEFKTHR5X? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+[2024-10-15T21:45:12.599+0530] {logging_mixin.py:190} INFO - Uploading consolidated CSV files to Google Drive...
+[2024-10-15T21:45:13.607+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:45:13.607+0530] {timeout.py:68} ERROR - Process timed out, PID: 17251
+[2024-10-15T21:45:13.612+0530] {logging_mixin.py:190} INFO - [2024-10-15T21:45:13.608+0530] {dagbag.py:387} ERROR - Failed to import: /home/vboxuser/airflow/dags/home_analytics.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 197, in <module>
+    perform_analytics()
+  File "/home/vboxuser/airflow/dags/home_analytics.py", line 190, in perform_analytics
+    ).execute()
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 923, in execute
+    resp, content = _retry_request(
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/home/vboxuser/.local/lib/python3.10/site-packages/google_auth_httplib2.py", line 218, in request
+    response, content = self.http.request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1725, in request
+    (response, content) = self._request(
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1441, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python3/dist-packages/httplib2/__init__.py", line 1393, in _conn_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.10/ssl.py", line 1303, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.10/ssl.py", line 1159, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/vboxuser/airflow/dags/home_analytics.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 17251
+[2024-10-15T21:45:13.615+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/vboxuser/airflow/dags/home_analytics.py
+[2024-10-15T21:45:13.648+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_analytics.py took 30.054 seconds

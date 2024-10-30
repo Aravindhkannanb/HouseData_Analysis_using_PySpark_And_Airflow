@@ -1,0 +1,945 @@
+[2024-10-16T10:03:37.620+0530] {processor.py:186} INFO - Started process (PID=2989) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:03:37.621+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:03:37.623+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:03:37.622+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:03:37.641+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:03:37.718+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:03:37.718+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:03:37.747+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:03:37.747+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:03:37.764+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.150 seconds
+[2024-10-16T10:05:28.219+0530] {processor.py:186} INFO - Started process (PID=4652) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:05:28.223+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:05:28.240+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:05:28.240+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:05:28.249+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:05:28.269+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:05:28.269+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:05:28.299+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:05:28.299+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:05:28.321+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.108 seconds
+[2024-10-16T10:06:20.195+0530] {processor.py:186} INFO - Started process (PID=4722) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:06:20.196+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:06:20.199+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:06:20.198+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:06:20.210+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:06:20.225+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:06:20.225+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:06:20.254+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:06:20.254+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:06:20.280+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.093 seconds
+[2024-10-16T10:07:14.704+0530] {processor.py:186} INFO - Started process (PID=4796) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:07:14.706+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:07:14.708+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:07:14.708+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:07:14.717+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:07:14.730+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:07:14.730+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:07:14.746+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:07:14.746+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:07:14.767+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.072 seconds
+[2024-10-16T10:08:10.866+0530] {processor.py:186} INFO - Started process (PID=4861) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:08:10.868+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:08:10.870+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:08:10.870+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:08:10.878+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:08:10.889+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:08:10.889+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:08:10.908+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:08:10.908+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:08:10.924+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.063 seconds
+[2024-10-16T10:09:04.187+0530] {processor.py:186} INFO - Started process (PID=4956) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:09:04.188+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:09:04.191+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:09:04.191+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:09:04.199+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:09:04.212+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:09:04.212+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:09:04.228+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:09:04.228+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:09:04.246+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.066 seconds
+[2024-10-16T10:09:57.268+0530] {processor.py:186} INFO - Started process (PID=5012) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:09:57.271+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:09:57.274+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:09:57.273+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:09:57.282+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:09:57.294+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:09:57.294+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:09:57.316+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:09:57.316+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:09:57.337+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.077 seconds
+[2024-10-16T10:10:52.716+0530] {processor.py:186} INFO - Started process (PID=5076) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:10:52.717+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:10:52.719+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:10:52.719+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:10:52.727+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:10:52.740+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:10:52.740+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:10:52.757+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:10:52.757+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:10:52.777+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.067 seconds
+[2024-10-16T10:11:46.089+0530] {processor.py:186} INFO - Started process (PID=5243) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:11:46.096+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:11:46.098+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:11:46.098+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:11:46.106+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:11:46.117+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:11:46.117+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:11:46.133+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:11:46.132+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:11:46.159+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.076 seconds
+[2024-10-16T10:12:40.562+0530] {processor.py:186} INFO - Started process (PID=5306) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:12:40.564+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:12:40.566+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:12:40.565+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:12:40.573+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:12:40.587+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:12:40.586+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:12:40.601+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:12:40.601+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:12:40.617+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.063 seconds
+[2024-10-16T10:13:35.212+0530] {processor.py:186} INFO - Started process (PID=5496) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:13:35.213+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:13:35.215+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:13:35.214+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:13:35.228+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:13:35.244+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:13:35.244+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:13:35.262+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:13:35.262+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:13:35.285+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.079 seconds
+[2024-10-16T10:14:28.071+0530] {processor.py:186} INFO - Started process (PID=5593) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:14:28.073+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:14:28.075+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:14:28.075+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:14:28.083+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:14:28.095+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:14:28.095+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:14:28.111+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:14:28.111+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:14:28.130+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.064 seconds
+[2024-10-16T10:15:19.003+0530] {processor.py:186} INFO - Started process (PID=5656) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:15:19.004+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:15:19.006+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:15:19.006+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:15:19.015+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:15:19.030+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:15:19.030+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:15:19.047+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:15:19.047+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:15:19.066+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.069 seconds
+[2024-10-16T10:16:06.689+0530] {processor.py:186} INFO - Started process (PID=5834) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:16:06.690+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:16:06.693+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:16:06.693+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:16:06.703+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:16:06.716+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:16:06.715+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:16:06.739+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:16:06.738+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:16:06.765+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.082 seconds
+[2024-10-16T10:16:59.107+0530] {processor.py:186} INFO - Started process (PID=5948) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:16:59.109+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:16:59.112+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:16:59.111+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:16:59.123+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:16:59.137+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:16:59.136+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:16:59.153+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:16:59.153+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:16:59.170+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.071 seconds
+[2024-10-16T10:17:51.083+0530] {processor.py:186} INFO - Started process (PID=6013) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:17:51.085+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:17:51.087+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:17:51.087+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:17:51.095+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:17:51.107+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:17:51.107+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:17:51.124+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:17:51.124+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:17:51.146+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.071 seconds
+[2024-10-16T10:18:41.923+0530] {processor.py:186} INFO - Started process (PID=6107) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:18:41.924+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:18:41.926+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:18:41.926+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:18:41.933+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:18:41.945+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:18:41.945+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:18:41.962+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:18:41.962+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:18:41.981+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.064 seconds
+[2024-10-16T10:19:36.404+0530] {processor.py:186} INFO - Started process (PID=6177) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:19:36.406+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:19:36.407+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:19:36.407+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:19:36.419+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:19:36.432+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:19:36.432+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:19:36.450+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:19:36.450+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:19:36.471+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.074 seconds
+[2024-10-16T10:20:29.316+0530] {processor.py:186} INFO - Started process (PID=6239) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:20:29.317+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:20:29.320+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:20:29.319+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:20:29.330+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:20:29.343+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:20:29.343+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:20:29.358+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:20:29.358+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:20:29.377+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.067 seconds
+[2024-10-16T10:21:22.807+0530] {processor.py:186} INFO - Started process (PID=6303) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:21:22.809+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:21:22.811+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:21:22.811+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:21:22.819+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:21:22.834+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:21:22.834+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:21:22.853+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:21:22.853+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:21:22.868+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.068 seconds
+[2024-10-16T10:22:16.421+0530] {processor.py:186} INFO - Started process (PID=6366) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:22:16.425+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:22:16.427+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:22:16.427+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:22:16.435+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:22:16.451+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:22:16.450+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:22:16.467+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:22:16.467+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:22:16.483+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.069 seconds
+[2024-10-16T10:23:08.492+0530] {processor.py:186} INFO - Started process (PID=6428) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:23:08.493+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:23:08.496+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:23:08.495+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:23:08.505+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:23:08.520+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:23:08.520+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:23:08.537+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:23:08.537+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:23:08.557+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.070 seconds
+[2024-10-16T10:24:03.291+0530] {processor.py:186} INFO - Started process (PID=6526) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:24:03.295+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:24:03.298+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:24:03.297+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:24:03.306+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:24:03.332+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:24:03.331+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:24:03.353+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:24:03.353+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:24:03.378+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.094 seconds
+[2024-10-16T10:24:55.173+0530] {processor.py:186} INFO - Started process (PID=6586) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:24:55.178+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:24:55.180+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:24:55.180+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:24:55.192+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:24:55.209+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:24:55.209+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:24:55.227+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:24:55.227+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:24:55.248+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.082 seconds
+[2024-10-16T10:25:55.268+0530] {processor.py:186} INFO - Started process (PID=6718) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:25:55.269+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:25:55.271+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:25:55.271+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:25:55.281+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:25:55.299+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:25:55.299+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:25:55.318+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:25:55.317+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:25:55.341+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.081 seconds
+[2024-10-16T10:26:28.694+0530] {processor.py:186} INFO - Started process (PID=6883) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:26:28.695+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:26:28.700+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:26:28.699+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:26:28.708+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:26:28.723+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:26:28.722+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:26:28.739+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:26:28.739+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:26:28.761+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.076 seconds
+[2024-10-16T10:27:00.605+0530] {processor.py:186} INFO - Started process (PID=6994) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:27:00.606+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:27:00.608+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:27:00.608+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:27:00.616+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:27:00.629+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:27:00.629+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:27:00.647+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:27:00.647+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:27:00.689+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.090 seconds
+[2024-10-16T10:28:19.755+0530] {processor.py:186} INFO - Started process (PID=7771) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:28:19.759+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:28:19.762+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:28:19.762+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:28:19.770+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:28:19.792+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:28:19.792+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:28:19.808+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:28:19.807+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:28:19.824+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.075 seconds
+[2024-10-16T10:29:12.138+0530] {processor.py:186} INFO - Started process (PID=8105) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:29:12.142+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:29:12.149+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:29:12.148+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:29:12.162+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:29:12.195+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:29:12.195+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:29:12.218+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:29:12.218+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:29:12.245+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.117 seconds
+[2024-10-16T10:30:10.614+0530] {processor.py:186} INFO - Started process (PID=8208) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:30:10.617+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:30:10.619+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:30:10.619+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:30:10.631+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:30:10.647+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:30:10.647+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:30:10.668+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:30:10.668+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:30:10.686+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.079 seconds
+[2024-10-16T10:31:07.736+0530] {processor.py:186} INFO - Started process (PID=8277) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:31:07.738+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:31:07.744+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:31:07.744+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:31:07.758+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:31:07.774+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:31:07.773+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:31:07.809+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:31:07.809+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:31:07.840+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.112 seconds
+[2024-10-16T10:32:05.620+0530] {processor.py:186} INFO - Started process (PID=8376) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:32:05.622+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:32:05.628+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:32:05.626+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:32:05.641+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:32:05.663+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:32:05.663+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:32:05.692+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:32:05.692+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:32:05.715+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.107 seconds
+[2024-10-16T10:32:37.001+0530] {processor.py:186} INFO - Started process (PID=8492) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:32:37.002+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:32:37.008+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:32:37.006+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:32:37.020+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:32:37.039+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:32:37.039+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:32:37.066+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:32:37.066+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:32:37.091+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.095 seconds
+[2024-10-16T10:33:35.722+0530] {processor.py:186} INFO - Started process (PID=8557) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:33:35.725+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:33:35.728+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:33:35.728+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:33:35.743+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:33:35.767+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:33:35.767+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:33:35.799+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:33:35.798+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:33:35.821+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.104 seconds
+[2024-10-16T10:40:25.773+0530] {processor.py:186} INFO - Started process (PID=8961) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:40:25.776+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T10:40:25.779+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:40:25.778+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:40:25.786+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T10:40:25.817+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:40:25.816+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T10:40:25.848+0530] {logging_mixin.py:190} INFO - [2024-10-16T10:40:25.848+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T10:40:25.873+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.106 seconds
+[2024-10-16T12:14:54.039+0530] {processor.py:186} INFO - Started process (PID=4494) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T12:14:54.043+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T12:14:54.047+0530] {logging_mixin.py:190} INFO - [2024-10-16T12:14:54.046+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T12:14:54.059+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T12:14:54.085+0530] {logging_mixin.py:190} INFO - [2024-10-16T12:14:54.085+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T12:14:54.123+0530] {logging_mixin.py:190} INFO - [2024-10-16T12:14:54.123+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T12:14:54.153+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.127 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  [2024-10-16T13:14:13.514+0530] {processor.py:186} INFO - Started process (PID=2677) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:14:13.519+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:14:13.526+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:14:13.525+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:14:13.551+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:14:13.585+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:14:13.585+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:14:13.613+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:14:13.613+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:14:13.637+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.140 seconds
+[2024-10-16T13:15:46.412+0530] {processor.py:186} INFO - Started process (PID=3903) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:15:46.418+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:15:46.424+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:15:46.423+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:15:46.439+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:15:46.458+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:15:46.458+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:15:46.482+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:15:46.481+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:15:46.630+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.234 seconds
+[2024-10-16T13:16:19.403+0530] {processor.py:186} INFO - Started process (PID=3939) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:16:19.404+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:16:19.407+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:16:19.407+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:16:19.418+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:16:19.436+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:16:19.435+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:16:19.457+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:16:19.456+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:16:19.481+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.092 seconds
+[2024-10-16T13:16:53.734+0530] {processor.py:186} INFO - Started process (PID=3981) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:16:53.737+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:16:53.742+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:16:53.741+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:16:53.755+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:16:53.772+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:16:53.772+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:16:53.793+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:16:53.793+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:16:53.819+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.101 seconds
+[2024-10-16T13:17:29.567+0530] {processor.py:186} INFO - Started process (PID=4029) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:17:29.570+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:17:29.574+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:17:29.574+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:17:29.597+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:17:29.617+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:17:29.616+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:17:29.637+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:17:29.637+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:17:29.662+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.110 seconds
+[2024-10-16T13:18:05.235+0530] {processor.py:186} INFO - Started process (PID=4061) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:18:05.238+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:18:05.244+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:18:05.243+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:18:05.260+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:18:05.276+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:18:05.276+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:18:05.297+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:18:05.296+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:18:05.321+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.103 seconds
+[2024-10-16T13:18:41.380+0530] {processor.py:186} INFO - Started process (PID=4167) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:18:41.382+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:18:41.387+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:18:41.386+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:18:41.411+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:18:41.431+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:18:41.430+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:18:41.467+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:18:41.466+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:18:41.516+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.150 seconds
+[2024-10-16T13:19:15.427+0530] {processor.py:186} INFO - Started process (PID=4228) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:19:15.429+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:19:15.433+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:19:15.432+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:19:15.444+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:19:15.462+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:19:15.462+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:19:15.484+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:19:15.484+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:19:15.508+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.096 seconds
+[2024-10-16T13:19:50.443+0530] {processor.py:186} INFO - Started process (PID=4273) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:19:50.445+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:19:50.449+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:19:50.449+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:19:50.466+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:19:50.495+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:19:50.495+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:19:50.541+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:19:50.541+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:19:50.687+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.256 seconds
+[2024-10-16T13:20:28.784+0530] {processor.py:186} INFO - Started process (PID=4405) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:20:28.785+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:20:28.788+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:20:28.788+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:20:28.800+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:20:28.823+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:20:28.823+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:20:28.847+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:20:28.847+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:20:28.878+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.106 seconds
+[2024-10-16T13:21:08.865+0530] {processor.py:186} INFO - Started process (PID=4557) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:21:08.868+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:21:08.871+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:21:08.871+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:21:08.885+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:21:08.907+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:21:08.906+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:21:09.088+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:21:09.088+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:21:09.111+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.255 seconds
+[2024-10-16T13:21:50.097+0530] {processor.py:186} INFO - Started process (PID=4618) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:21:50.099+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:21:50.103+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:21:50.102+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:21:50.129+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:21:50.167+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:21:50.167+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:21:50.202+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:21:50.201+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:21:50.372+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.284 seconds
+[2024-10-16T13:23:11.623+0530] {processor.py:186} INFO - Started process (PID=4853) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:23:11.627+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:23:11.631+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:23:11.630+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:23:11.655+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:23:11.703+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:23:11.703+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:23:11.736+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:23:11.735+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:23:11.770+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.161 seconds
+[2024-10-16T13:24:39.823+0530] {processor.py:186} INFO - Started process (PID=5557) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:24:39.824+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:24:39.828+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:24:39.827+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:24:39.843+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:24:39.871+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:24:39.871+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:24:39.895+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:24:39.895+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:24:40.065+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.258 seconds
+[2024-10-16T13:25:19.906+0530] {processor.py:186} INFO - Started process (PID=5732) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:25:19.908+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:25:19.911+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:25:19.910+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:25:19.923+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:25:19.949+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:25:19.948+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:25:19.970+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:25:19.969+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:25:19.994+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.098 seconds
+[2024-10-16T13:26:48.741+0530] {processor.py:186} INFO - Started process (PID=6375) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:26:48.744+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:26:48.748+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:26:48.748+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:26:48.768+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:26:48.788+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:26:48.788+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:26:48.812+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:26:48.812+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:26:49.011+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.288 seconds
+[2024-10-16T13:27:24.706+0530] {processor.py:186} INFO - Started process (PID=6411) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:27:24.708+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:27:24.715+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:27:24.714+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:27:24.731+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:27:24.748+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:27:24.748+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:27:24.771+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:27:24.770+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:27:24.808+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.121 seconds
+[2024-10-16T13:28:01.710+0530] {processor.py:186} INFO - Started process (PID=6502) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:28:01.714+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:28:01.720+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:28:01.720+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:28:01.735+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:28:01.752+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:28:01.752+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:28:01.779+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:28:01.778+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:28:01.803+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.107 seconds
+[2024-10-16T13:28:38.082+0530] {processor.py:186} INFO - Started process (PID=6543) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:28:38.085+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:28:38.090+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:28:38.090+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:28:38.111+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:28:38.151+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:28:38.148+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:28:38.172+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:28:38.172+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:28:38.207+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.138 seconds
+[2024-10-16T13:29:14.404+0530] {processor.py:186} INFO - Started process (PID=6586) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:29:14.407+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:29:14.414+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:29:14.413+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:29:14.428+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:29:14.452+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:29:14.451+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:29:14.478+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:29:14.477+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:29:14.504+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.113 seconds
+[2024-10-16T13:29:51.402+0530] {processor.py:186} INFO - Started process (PID=6745) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:29:51.404+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:29:51.408+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:29:51.408+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:29:51.421+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:29:51.448+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:29:51.448+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:29:51.494+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:29:51.494+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:29:51.522+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.131 seconds
+[2024-10-16T13:30:32.381+0530] {processor.py:186} INFO - Started process (PID=6921) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:30:32.384+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:30:32.389+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:30:32.388+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:30:32.408+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:30:32.438+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:30:32.438+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:30:32.468+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:30:32.468+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:30:32.502+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.132 seconds
+[2024-10-16T13:31:13.047+0530] {processor.py:186} INFO - Started process (PID=6966) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:31:13.050+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:31:13.053+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:31:13.053+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:31:13.073+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:31:13.092+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:31:13.091+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:31:13.268+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:31:13.267+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:31:13.303+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.271 seconds
+[2024-10-16T13:31:56.092+0530] {processor.py:186} INFO - Started process (PID=7194) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:31:56.094+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:31:56.099+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:31:56.098+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:31:56.123+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:31:56.167+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:31:56.167+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:31:56.189+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:31:56.189+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:31:56.212+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.131 seconds
+[2024-10-16T13:33:27.056+0530] {processor.py:186} INFO - Started process (PID=7923) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:33:27.061+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:33:27.065+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:33:27.064+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:33:27.079+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:33:27.099+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:33:27.098+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:33:27.128+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:33:27.128+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:33:27.287+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.239 seconds
+[2024-10-16T13:34:02.079+0530] {processor.py:186} INFO - Started process (PID=8102) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:34:02.083+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:34:02.089+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:34:02.088+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:34:02.109+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:34:02.129+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:34:02.129+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:34:02.151+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:34:02.151+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:34:02.176+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.113 seconds
+[2024-10-16T13:34:38.253+0530] {processor.py:186} INFO - Started process (PID=8223) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:34:38.257+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:34:38.262+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:34:38.261+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:34:38.277+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:34:38.296+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:34:38.296+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:34:38.328+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:34:38.328+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:34:38.359+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.121 seconds
+[2024-10-16T13:35:16.316+0530] {processor.py:186} INFO - Started process (PID=8399) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:35:16.317+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:35:16.320+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:35:16.320+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:35:16.332+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:35:16.348+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:35:16.348+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:35:16.373+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:35:16.373+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:35:16.408+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.100 seconds
+[2024-10-16T13:35:55.151+0530] {processor.py:186} INFO - Started process (PID=8485) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:35:55.156+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:35:55.159+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:35:55.158+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:35:55.172+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:35:55.201+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:35:55.201+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:35:55.240+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:35:55.240+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:35:55.296+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.156 seconds
+[2024-10-16T13:36:35.002+0530] {processor.py:186} INFO - Started process (PID=8532) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:36:35.005+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:36:35.007+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:36:35.007+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:36:35.018+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:36:35.035+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:36:35.035+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:36:35.055+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:36:35.055+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:36:35.079+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.088 seconds
+[2024-10-16T13:37:10.649+0530] {processor.py:186} INFO - Started process (PID=8597) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:37:10.650+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:37:10.652+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:37:10.651+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:37:10.659+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:37:10.672+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:37:10.671+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:37:10.687+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:37:10.686+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:37:10.711+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.068 seconds
+[2024-10-16T13:38:13.660+0530] {processor.py:186} INFO - Started process (PID=8816) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:38:13.664+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:38:13.667+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:38:13.666+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:38:13.784+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:38:13.794+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:38:13.793+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:38:13.808+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:38:13.808+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:38:13.845+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.192 seconds
+[2024-10-16T13:38:48.626+0530] {processor.py:186} INFO - Started process (PID=8879) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:38:48.637+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:38:48.645+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:38:48.645+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:38:48.653+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:38:48.669+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:38:48.669+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:38:48.687+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:38:48.687+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:38:48.712+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.094 seconds
+[2024-10-16T13:39:47.855+0530] {processor.py:186} INFO - Started process (PID=8954) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:39:47.857+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:39:47.861+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:39:47.860+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:39:47.869+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:39:47.887+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:39:47.887+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:39:47.905+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:39:47.905+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:39:47.949+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.102 seconds
+[2024-10-16T13:40:47.811+0530] {processor.py:186} INFO - Started process (PID=9033) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:40:47.818+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:40:47.823+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:40:47.822+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:40:47.836+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:40:47.863+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:40:47.862+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:40:47.890+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:40:47.890+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:40:47.921+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.121 seconds
+[2024-10-16T13:41:46.476+0530] {processor.py:186} INFO - Started process (PID=9162) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:41:46.478+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:41:46.480+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:41:46.480+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:41:46.490+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:41:46.505+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:41:46.505+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:41:46.524+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:41:46.524+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:41:46.548+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.081 seconds
+[2024-10-16T13:42:48.577+0530] {processor.py:186} INFO - Started process (PID=9279) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:42:48.578+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:42:48.581+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:42:48.580+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:42:48.590+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:42:48.603+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:42:48.603+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:42:48.619+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:42:48.619+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:42:48.638+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.067 seconds
+[2024-10-16T13:43:21.935+0530] {processor.py:186} INFO - Started process (PID=9318) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:43:21.936+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:43:21.938+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:43:21.938+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:43:21.947+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:43:21.961+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:43:21.960+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:43:21.975+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:43:21.975+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:43:21.996+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.068 seconds
+[2024-10-16T13:44:20.590+0530] {processor.py:186} INFO - Started process (PID=9416) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:44:20.594+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:44:20.598+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:44:20.597+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:44:20.608+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:44:20.622+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:44:20.622+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:44:20.642+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:44:20.642+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:44:20.666+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.093 seconds
+[2024-10-16T13:45:19.618+0530] {processor.py:186} INFO - Started process (PID=9552) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:45:19.621+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:45:19.625+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:45:19.625+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:45:19.639+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:45:19.654+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:45:19.654+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:45:19.671+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:45:19.670+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:45:19.697+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.087 seconds
+[2024-10-16T13:46:22.140+0530] {processor.py:186} INFO - Started process (PID=9628) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:46:22.142+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:46:22.143+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:46:22.143+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:46:22.155+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:46:22.175+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:46:22.175+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:46:22.196+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:46:22.196+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:46:22.228+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.093 seconds
+[2024-10-16T13:47:25.430+0530] {processor.py:186} INFO - Started process (PID=9761) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:47:25.431+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:47:25.433+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:47:25.433+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:47:25.456+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:47:25.470+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:47:25.470+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:47:25.486+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:47:25.486+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:47:25.509+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.085 seconds
+[2024-10-16T13:48:25.798+0530] {processor.py:186} INFO - Started process (PID=9880) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:48:25.800+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:48:25.802+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:48:25.802+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:48:25.826+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:48:25.856+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:48:25.855+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:48:25.885+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:48:25.885+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:48:25.906+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.115 seconds
+[2024-10-16T13:49:30.519+0530] {processor.py:186} INFO - Started process (PID=10116) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:49:30.523+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:49:30.524+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:49:30.524+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:49:30.545+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:49:30.573+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:49:30.572+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:49:30.590+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:49:30.590+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:49:30.616+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.107 seconds
+[2024-10-16T13:50:03.581+0530] {processor.py:186} INFO - Started process (PID=10305) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:50:03.583+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:50:03.585+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:50:03.584+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:50:03.605+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:50:03.629+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:50:03.629+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:50:03.650+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:50:03.650+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:50:03.674+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.099 seconds
+[2024-10-16T13:51:02.793+0530] {processor.py:186} INFO - Started process (PID=10417) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:51:02.795+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:51:02.796+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:51:02.796+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:51:02.811+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:51:02.841+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:51:02.840+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:51:02.858+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:51:02.858+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:51:02.878+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.091 seconds
+[2024-10-16T13:52:01.663+0530] {processor.py:186} INFO - Started process (PID=10531) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:52:01.667+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:52:01.668+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:52:01.668+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:52:01.677+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:52:01.692+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:52:01.692+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:52:01.711+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:52:01.711+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:52:01.728+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.070 seconds
+[2024-10-16T13:53:00.824+0530] {processor.py:186} INFO - Started process (PID=10633) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:53:00.825+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:53:00.826+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:53:00.826+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:53:00.836+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:53:00.850+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:53:00.850+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:53:00.869+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:53:00.869+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:53:00.887+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.070 seconds
+[2024-10-16T13:53:58.589+0530] {processor.py:186} INFO - Started process (PID=10742) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:53:58.590+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:53:58.593+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:53:58.592+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:53:58.610+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:53:58.633+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:53:58.633+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:53:58.659+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:53:58.659+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:53:58.688+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.111 seconds
+[2024-10-16T13:54:33.364+0530] {processor.py:186} INFO - Started process (PID=10792) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:54:33.368+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:54:33.372+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:54:33.371+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:54:33.393+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:54:33.412+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:54:33.411+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:54:33.436+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:54:33.435+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:54:33.461+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.112 seconds
+[2024-10-16T13:55:10.825+0530] {processor.py:186} INFO - Started process (PID=10852) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:55:10.827+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T13:55:10.830+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:55:10.829+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:55:10.844+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T13:55:10.862+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:55:10.862+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T13:55:10.885+0530] {logging_mixin.py:190} INFO - [2024-10-16T13:55:10.885+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T13:55:10.910+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.102 seconds
+[2024-10-16T14:19:41.736+0530] {processor.py:186} INFO - Started process (PID=11597) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:19:41.738+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T14:19:41.739+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:19:41.739+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:19:41.748+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:19:41.765+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:19:41.764+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T14:19:41.785+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:19:41.785+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T14:19:41.815+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.086 seconds
+[2024-10-16T14:20:17.911+0530] {processor.py:186} INFO - Started process (PID=11669) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:20:17.913+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T14:20:17.914+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:20:17.914+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:20:17.924+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:20:17.940+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:20:17.940+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T14:20:17.959+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:20:17.959+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T14:20:17.978+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.073 seconds
+[2024-10-16T14:21:16.742+0530] {processor.py:186} INFO - Started process (PID=11751) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:21:16.743+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T14:21:16.744+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:21:16.744+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:21:16.752+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:21:16.766+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:21:16.766+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T14:21:16.783+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:21:16.783+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T14:21:16.803+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.067 seconds
+[2024-10-16T14:24:09.844+0530] {processor.py:186} INFO - Started process (PID=11888) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:24:09.845+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T14:24:09.847+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:24:09.846+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:24:09.854+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:24:09.878+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:24:09.878+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T14:24:09.895+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:24:09.895+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T14:24:09.918+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.084 seconds
+[2024-10-16T14:25:07.689+0530] {processor.py:186} INFO - Started process (PID=12261) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:25:07.690+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T14:25:07.692+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:25:07.691+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:25:07.711+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:25:07.726+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:25:07.726+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T14:25:07.742+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:25:07.742+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T14:25:07.764+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.081 seconds
+[2024-10-16T14:26:04.766+0530] {processor.py:186} INFO - Started process (PID=12701) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:26:04.770+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T14:26:04.771+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:26:04.771+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:26:04.778+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:26:04.793+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:26:04.793+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T14:26:04.809+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:26:04.809+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T14:26:04.832+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.073 seconds
+[2024-10-16T14:27:02.771+0530] {processor.py:186} INFO - Started process (PID=12766) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:27:02.773+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T14:27:02.774+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:27:02.773+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:27:02.780+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:27:02.796+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:27:02.796+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T14:27:02.825+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:27:02.825+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T14:27:02.843+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.078 seconds
+[2024-10-16T14:28:01.439+0530] {processor.py:186} INFO - Started process (PID=12851) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:28:01.443+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T14:28:01.445+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:28:01.444+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:28:01.451+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:28:01.464+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:28:01.464+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T14:28:01.478+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:28:01.478+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T14:28:01.498+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.064 seconds
+[2024-10-16T14:28:58.020+0530] {processor.py:186} INFO - Started process (PID=12928) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:28:58.021+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T14:28:58.023+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:28:58.022+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:28:58.031+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T14:28:58.046+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:28:58.046+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T14:28:58.061+0530] {logging_mixin.py:190} INFO - [2024-10-16T14:28:58.061+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T14:28:58.085+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.073 seconds
+[2024-10-16T15:59:56.237+0530] {processor.py:186} INFO - Started process (PID=4701) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T15:59:56.241+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T15:59:56.245+0530] {logging_mixin.py:190} INFO - [2024-10-16T15:59:56.245+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T15:59:56.263+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T15:59:56.296+0530] {logging_mixin.py:190} INFO - [2024-10-16T15:59:56.296+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T15:59:56.316+0530] {logging_mixin.py:190} INFO - [2024-10-16T15:59:56.316+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T15:59:56.337+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.109 seconds
+[2024-10-16T16:00:58.946+0530] {processor.py:186} INFO - Started process (PID=5209) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:00:58.950+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:00:58.954+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:00:58.954+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:00:58.969+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:00:58.988+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:00:58.988+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:00:59.014+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:00:59.014+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:00:59.042+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.103 seconds
+[2024-10-16T16:01:33.682+0530] {processor.py:186} INFO - Started process (PID=5480) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:01:33.683+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:01:33.685+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:01:33.684+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:01:33.695+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:01:33.713+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:01:33.713+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:01:33.738+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:01:33.738+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:01:33.762+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.090 seconds
+[2024-10-16T16:02:06.320+0530] {processor.py:186} INFO - Started process (PID=5625) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:02:06.322+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:02:06.325+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:02:06.324+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:02:06.334+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:02:06.351+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:02:06.351+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:02:06.375+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:02:06.374+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:02:06.399+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.086 seconds
+[2024-10-16T16:02:40.028+0530] {processor.py:186} INFO - Started process (PID=5958) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:02:40.032+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:02:40.034+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:02:40.034+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:02:40.042+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:02:40.059+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:02:40.059+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:02:40.075+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:02:40.074+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:02:40.093+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.071 seconds
+[2024-10-16T16:03:18.469+0530] {processor.py:186} INFO - Started process (PID=6204) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:03:18.470+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:03:18.474+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:03:18.472+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:03:18.487+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:03:18.514+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:03:18.514+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:03:18.539+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:03:18.539+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:03:18.563+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.100 seconds
+[2024-10-16T16:03:55.355+0530] {processor.py:186} INFO - Started process (PID=6459) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:03:55.371+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:03:55.373+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:03:55.373+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:03:55.387+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:03:55.417+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:03:55.417+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:03:55.433+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:03:55.433+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:03:55.455+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.108 seconds
+[2024-10-16T16:04:30.732+0530] {processor.py:186} INFO - Started process (PID=6722) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:04:30.733+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:04:30.736+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:04:30.736+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:04:30.749+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:04:30.766+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:04:30.766+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:04:30.793+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:04:30.792+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:04:30.817+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.093 seconds
+[2024-10-16T16:05:09.137+0530] {processor.py:186} INFO - Started process (PID=6943) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:05:09.140+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:05:09.145+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:05:09.145+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:05:09.160+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:05:09.185+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:05:09.183+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:05:09.350+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:05:09.349+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:05:09.372+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.247 seconds
+[2024-10-16T16:05:46.839+0530] {processor.py:186} INFO - Started process (PID=7166) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:05:46.840+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:05:46.842+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:05:46.842+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:05:46.862+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:05:46.882+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:05:46.882+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:05:46.911+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:05:46.911+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:05:47.080+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.248 seconds
+[2024-10-16T16:06:22.761+0530] {processor.py:186} INFO - Started process (PID=7319) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:06:22.763+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:06:22.765+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:06:22.764+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:06:22.774+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:06:22.793+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:06:22.793+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:06:22.808+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:06:22.807+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:06:22.825+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.069 seconds
+[2024-10-16T16:06:50.029+0530] {processor.py:186} INFO - Started process (PID=7561) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:06:50.030+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:06:50.032+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:06:50.032+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:06:50.043+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:06:50.068+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:06:50.068+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:06:50.084+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:06:50.084+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:06:50.101+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.081 seconds
+[2024-10-16T16:07:56.497+0530] {processor.py:186} INFO - Started process (PID=8068) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:07:56.500+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:07:56.503+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:07:56.502+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:07:56.510+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:07:56.524+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:07:56.524+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:07:56.542+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:07:56.541+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:07:56.561+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.069 seconds
+[2024-10-16T16:08:32.787+0530] {processor.py:186} INFO - Started process (PID=8247) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:08:32.788+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:08:32.790+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:08:32.790+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:08:32.799+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:08:32.813+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:08:32.813+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:08:32.832+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:08:32.832+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:08:32.857+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.077 seconds
+[2024-10-16T16:09:04.352+0530] {processor.py:186} INFO - Started process (PID=8362) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:09:04.353+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:09:04.355+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:09:04.355+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:09:04.363+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:09:04.376+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:09:04.376+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:09:04.392+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:09:04.392+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:09:04.413+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.067 seconds
+[2024-10-16T16:10:01.781+0530] {processor.py:186} INFO - Started process (PID=8540) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:10:01.785+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:10:01.787+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:10:01.787+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:10:01.798+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:10:01.815+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:10:01.815+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:10:01.834+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:10:01.833+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:10:01.852+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.080 seconds
+[2024-10-16T16:10:58.472+0530] {processor.py:186} INFO - Started process (PID=8645) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:10:58.473+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:10:58.476+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:10:58.476+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:10:58.484+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:10:58.497+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:10:58.497+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:10:58.600+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:10:58.600+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:10:58.624+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.158 seconds
+[2024-10-16T16:11:51.447+0530] {processor.py:186} INFO - Started process (PID=8768) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:11:51.449+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:11:51.451+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:11:51.451+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:11:51.459+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:11:51.473+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:11:51.472+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:11:51.601+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:11:51.601+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:11:51.621+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.181 seconds
+[2024-10-16T16:12:26.172+0530] {processor.py:186} INFO - Started process (PID=8819) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:12:26.173+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:12:26.176+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:12:26.175+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:12:26.185+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:12:26.201+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:12:26.201+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:12:26.225+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:12:26.222+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:12:26.254+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.094 seconds
+[2024-10-16T16:13:12.093+0530] {processor.py:186} INFO - Started process (PID=9030) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:13:12.094+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:13:12.096+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:13:12.096+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:13:12.106+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:13:12.126+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:13:12.126+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:13:12.140+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:13:12.140+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:13:12.163+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.075 seconds
+[2024-10-16T16:14:14.672+0530] {processor.py:186} INFO - Started process (PID=9445) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:14:14.673+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:14:14.678+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:14:14.677+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:14:14.695+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:14:14.718+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:14:14.718+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:14:14.748+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:14:14.748+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:14:14.775+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.117 seconds
+[2024-10-16T16:15:17.099+0530] {processor.py:186} INFO - Started process (PID=9575) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:15:17.100+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:15:17.103+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:15:17.103+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:15:17.113+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:15:17.128+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:15:17.127+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:15:17.144+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:15:17.144+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:15:17.163+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.070 seconds
+[2024-10-16T16:16:20.485+0530] {processor.py:186} INFO - Started process (PID=9678) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:16:20.486+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:16:20.505+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:16:20.504+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:16:20.515+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:16:20.536+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:16:20.536+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:16:20.572+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:16:20.572+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:16:20.730+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.255 seconds
+[2024-10-16T16:17:23.985+0530] {processor.py:186} INFO - Started process (PID=9918) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:17:23.989+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:17:23.993+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:17:23.992+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:17:24.004+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:17:24.022+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:17:24.022+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:17:24.044+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:17:24.044+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:17:24.184+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.211 seconds
+[2024-10-16T16:17:57.426+0530] {processor.py:186} INFO - Started process (PID=9961) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:17:57.428+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:17:57.430+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:17:57.429+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:17:57.438+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:17:57.452+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:17:57.452+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:17:57.467+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:17:57.467+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:17:57.487+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.066 seconds
+[2024-10-16T16:18:28.907+0530] {processor.py:186} INFO - Started process (PID=10053) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:18:28.908+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:18:28.913+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:18:28.912+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:18:28.926+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:18:28.940+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:18:28.940+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:18:29.054+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:18:29.054+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:18:29.074+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.173 seconds
+[2024-10-16T16:19:27.546+0530] {processor.py:186} INFO - Started process (PID=10144) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:19:27.550+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:19:27.555+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:19:27.554+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:19:27.563+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:19:27.581+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:19:27.581+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:19:27.724+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:19:27.724+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:19:27.756+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.215 seconds
+[2024-10-16T16:20:00.404+0530] {processor.py:186} INFO - Started process (PID=10189) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:20:00.406+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:20:00.412+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:20:00.411+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:20:00.426+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:20:00.448+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:20:00.448+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:20:00.472+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:20:00.472+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:20:00.498+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.102 seconds
+[2024-10-16T16:20:38.169+0530] {processor.py:186} INFO - Started process (PID=10233) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:20:38.171+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:20:38.177+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:20:38.177+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:20:38.203+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:20:38.436+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:20:38.436+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:20:38.459+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:20:38.458+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:20:38.489+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.340 seconds
+[2024-10-16T16:21:15.657+0530] {processor.py:186} INFO - Started process (PID=10270) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:21:15.659+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:21:15.661+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:21:15.661+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:21:15.673+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:21:15.705+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:21:15.704+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:21:15.736+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:21:15.735+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:21:15.903+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.258 seconds
+[2024-10-16T16:21:55.080+0530] {processor.py:186} INFO - Started process (PID=10335) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:21:55.081+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:21:55.085+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:21:55.085+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:21:55.099+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:21:55.127+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:21:55.127+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:21:55.153+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:21:55.152+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:21:55.187+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.116 seconds
+[2024-10-16T16:22:33.439+0530] {processor.py:186} INFO - Started process (PID=10385) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:22:33.440+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:22:33.446+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:22:33.446+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:22:33.475+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:22:33.505+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:22:33.505+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:22:33.533+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:22:33.533+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:22:33.560+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.137 seconds
+[2024-10-16T16:23:11.334+0530] {processor.py:186} INFO - Started process (PID=10426) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:23:11.336+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:23:11.345+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:23:11.341+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:23:11.360+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:23:11.387+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:23:11.387+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:23:11.418+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:23:11.417+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:23:11.449+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.140 seconds
+[2024-10-16T16:23:48.938+0530] {processor.py:186} INFO - Started process (PID=10524) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:23:48.941+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:23:48.946+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:23:48.945+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:23:48.960+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:23:48.980+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:23:48.979+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:23:49.006+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:23:49.006+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:23:49.037+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.115 seconds
+[2024-10-16T16:24:23.928+0530] {processor.py:186} INFO - Started process (PID=10563) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:24:23.931+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:24:23.937+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:24:23.934+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:24:23.957+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:24:23.987+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:24:23.986+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:24:24.022+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:24:24.021+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:24:24.048+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.133 seconds
+[2024-10-16T16:24:57.431+0530] {processor.py:186} INFO - Started process (PID=10627) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:24:57.433+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:24:57.437+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:24:57.437+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:24:57.451+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:24:57.474+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:24:57.474+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:24:57.503+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:24:57.502+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:24:57.542+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.125 seconds
+[2024-10-16T16:25:30.573+0530] {processor.py:186} INFO - Started process (PID=10665) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:25:30.576+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:25:30.582+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:25:30.581+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:25:30.596+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:25:30.615+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:25:30.614+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:25:30.647+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:25:30.647+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:25:30.672+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.117 seconds
+[2024-10-16T16:26:04.272+0530] {processor.py:186} INFO - Started process (PID=10724) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:26:04.277+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:26:04.281+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:26:04.280+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:26:04.297+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:26:04.317+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:26:04.317+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:26:04.351+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:26:04.351+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:26:04.379+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.120 seconds
+[2024-10-16T16:26:36.878+0530] {processor.py:186} INFO - Started process (PID=10763) to work on /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:26:36.879+0530] {processor.py:914} INFO - Processing file /home/vboxuser/airflow/dags/home_schedule_dag.py for tasks to queue
+[2024-10-16T16:26:36.883+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:26:36.882+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:26:36.894+0530] {processor.py:925} INFO - DAG(s) 'home_schedule_dag' retrieved from /home/vboxuser/airflow/dags/home_schedule_dag.py
+[2024-10-16T16:26:36.914+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:26:36.914+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-16T16:26:36.940+0530] {logging_mixin.py:190} INFO - [2024-10-16T16:26:36.940+0530] {dag.py:4180} INFO - Setting next_dagrun for home_schedule_dag to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-16T16:26:36.973+0530] {processor.py:208} INFO - Processing /home/vboxuser/airflow/dags/home_schedule_dag.py took 0.103 seconds

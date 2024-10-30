@@ -1,0 +1,28 @@
+[2024-10-16T16:13:35.780+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-16T16:13:35.787+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: linear_dag.run_model_training manual__2024-10-16T10:43:32.923156+00:00 [queued]>
+[2024-10-16T16:13:35.796+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: linear_dag.run_model_training manual__2024-10-16T10:43:32.923156+00:00 [queued]>
+[2024-10-16T16:13:35.797+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-16T16:13:35.809+0530] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_model_training> on 2024-10-16 10:43:32.923156+00:00
+[2024-10-16T16:13:35.820+0530] {standard_task_runner.py:72} INFO - Started process 9200 to run task
+[2024-10-16T16:13:35.828+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'linear_dag', 'run_model_training', 'manual__2024-10-16T10:43:32.923156+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/linear_dag.py', '--cfg-path', '/tmp/tmpowaypgrz']
+[2024-10-16T16:13:35.828+0530] {standard_task_runner.py:105} INFO - Job 55: Subtask run_model_training
+[2024-10-16T16:13:35.871+0530] {task_command.py:467} INFO - Running <TaskInstance: linear_dag.run_model_training manual__2024-10-16T10:43:32.923156+00:00 [running]> on host tce.myguest.virtualbox.org
+[2024-10-16T16:13:35.929+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='linear_dag' AIRFLOW_CTX_TASK_ID='run_model_training' AIRFLOW_CTX_EXECUTION_DATE='2024-10-16T10:43:32.923156+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-16T10:43:32.923156+00:00'
+[2024-10-16T16:13:35.930+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-16T16:13:35.931+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-16T16:13:35.931+0530] {logging_mixin.py:190} INFO - Current task name:run_model_training state:running start_date:2024-10-16 10:43:35.787564+00:00
+[2024-10-16T16:13:35.931+0530] {logging_mixin.py:190} INFO - Dag name:linear_dag and current dag run status:running
+[2024-10-16T16:13:35.931+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-16T16:13:36.016+0530] {logging_mixin.py:190} INFO - Price: [ 258849.9465066   374760.51108199  345601.58988585 ... 1066085.09218578
+  526640.51204073  547876.40575055]
+[2024-10-16T16:13:36.016+0530] {logging_mixin.py:190} INFO - R² Score: 0.5952585914166315
+[2024-10-16T16:13:36.017+0530] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-16T16:13:36.021+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-16T16:13:36.021+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=linear_dag, task_id=run_model_training, run_id=manual__2024-10-16T10:43:32.923156+00:00, execution_date=20241016T104332, start_date=20241016T104335, end_date=20241016T104336
+[2024-10-16T16:13:36.029+0530] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-16T16:13:36.029+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-16T16:13:36.029+0530] {logging_mixin.py:190} INFO - Dag name:linear_dag queued_at:2024-10-16 10:43:32.939132+00:00
+[2024-10-16T16:13:36.029+0530] {logging_mixin.py:190} INFO - Task hostname:tce.myguest.virtualbox.org operator:PythonOperator
+[2024-10-16T16:13:36.040+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-16T16:13:36.047+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-16T16:13:36.048+0530] {local_task_job_runner.py:245} INFO - ::endgroup::
