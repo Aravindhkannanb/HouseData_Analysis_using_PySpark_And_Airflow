@@ -50,3 +50,34 @@ This project leverages Apache PySpark for large-scale data analytics and Apache 
 
    ```bash
    pip install apache-airflow apache-airflow-providers-google apache-spark google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+
+## Configuration
+
+### Airflow Setup
+- Ensure Apache Airflow is correctly installed, configured, and running.
+- Start Airflow’s web server and scheduler to enable DAG scheduling and monitoring.
+
+### Google API Setup
+- Set up Google Drive API on Google Cloud Console, and download the `credentials.json` file.
+- Place this file in `/home/vboxuser/airflow/dags/` and rename it to `token.json` for authentication and Drive API integration.
+
+### Data File
+- Save the housing dataset as `house_data.dat` in `/home/vboxuser/airflow/dags/` for access by the PySpark tasks within Airflow.
+
+## Data Flow
+
+1. **DAG Setup**: Airflow runs the DAG daily, calling the `perform_analytics` task.
+2. **Data Processing**: PySpark reads, cleans, and processes the data from `house_data.dat`.
+3. **Analysis Generation**: The data undergoes various aggregations and analyses as defined in `perform_analytics()`.
+4. **Local Storage**: Intermediate results are saved in CSV format in the `analytics` sub-directory.
+5. **Consolidation**: Small CSV parts are consolidated into single CSV files for each analysis type.
+6. **Google Drive Upload**: Consolidated CSV files are uploaded to Google Drive for easy access and sharing.
+
+## Usage
+
+### Running the DAG
+
+1. Start the Airflow scheduler:
+   ```bash
+   airflow scheduler
+
